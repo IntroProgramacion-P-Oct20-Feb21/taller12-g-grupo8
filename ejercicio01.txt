@@ -1,0 +1,4 @@
+1_ Inicio
+2_ Funcion principal
+3_ arreglo1(4), i[0-n] <-- {1, 2, 5, 6}
+4_ arreglo2(4), i[0-n] <-- {9, 8, 7, 1}

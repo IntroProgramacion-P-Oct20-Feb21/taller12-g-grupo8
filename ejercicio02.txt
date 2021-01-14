@@ -1,0 +1,42 @@
+1_ Inicio
+2_ Funcion principal
+3_ 	auto, x(200)[{1-9},{a-z},{A-Z}, {/}]
+4_	moto, x(200)[{1-9},{a-z},{A-Z}, {/}]
+5_	opcion, i[0, n]
+6_ 	Escribir "Ingrese 1 para ingresar auto o 2 para ingresar moto"
+7_	Leer opcion
+8_	Si opcion == 1 entonces
+9_		auto <-- dAuto()
+10_		Escribir auto
+11_	De lo contrario
+12_		Si opcion == 2 entonces
+13_			moto <-- dMoto()
+14_			Escribir moto
+15_		De los contario
+16_			Escribir "Valor ingresado incorrecto"
+17_		Fin si
+18_	Fin si
+19_ Fin funcion principal
+20_ Funcion dAuto()
+21_	marca, x(200)[{1-9},{a-z},{A-Z}, {/}]
+22_	año, i[0, n]
+23_	cadena, x(200)[{1-9},{a-z},{A-Z}, {/}]
+24_	Escribir "Ingrese la marca del auto"
+25_	Leer marca
+26_	Escribir "Ingrese el año del auto"
+27_	Leer año
+28_	cadena <-- cadena + "Auto marca "+ marca "con año de fabricacion "+ año
+29_	return cadena
+30_ Fin funcion dAuto
+31_ Funcion dMoto()
+32_	tMotor, x(200)[{1-9},{a-z},{A-Z}, {/}]
+33_	asiento, i[0, n]
+34_	cadena, x(200)[{1-9},{a-z},{A-Z}, {/}]
+35_	Escribir "Ingrese el tipo de motor"
+36_	Leer tMotor
+37_	Escribir "Ingrese el numero de asientos"
+38_	Leer año
+39_	cadena <-- cadena "Moto con motor a "+tMotor "y "+ asiento "asientos"
+40_	return cadena
+41_ Fin funcion dMoto
+42_ Fin
